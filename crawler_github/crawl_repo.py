@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import aiofiles, httpx
-from shared.db import github_collection
+from db import github_collection
 from tqdm import tqdm
 
 GITHUB_API = "https://api.github.com"
